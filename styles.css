@@ -1,0 +1,42 @@
+/* *{
+    margin: 0px;
+    padding:0px;
+    } */
+
+body{
+    margin: 0px;
+}
+
+.container  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1  {
+    margin: 8px 8px;
+    color: #f9faf8;
+}
+
+a   {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    background-color: #1f2937;
+    /* justify-content: flex-start; */
+}
+
+.right   {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 860px;
+}
+
+.list   {
+    margin: 8px;
+    list-style-type: none;
+}
+
