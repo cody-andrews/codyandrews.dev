@@ -11,8 +11,9 @@ header{
     /* justify-content: flex-start; */
 }
 
-h1  {
-    margin: 8px 8px;
+header, h1  {
+    margin: 8px 16px;
+    margin-right: auto;
     color: #f9faf8;
 }
 
@@ -30,24 +31,37 @@ img {
     max-height: 100%;
 }
 
+p   {
+    align-self: center;
+    margin: 0px 80px;
+}
+
+footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container  {
     display: flex;
+    flex: ;
     height: 450px;
 }
 
 .header-about-me    {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .p-about-me {
     margin: 0px 0px;
+    font-size: 1rem;
 }
 
 .about-me-image  {
-    width: 600px;
+    max-width: 600px;
+    width: 40%;
     object-fit: contain;
-    margin: 48px;
+    margin: 0px 80px;
 }
 
 .about-me   {
@@ -80,14 +94,30 @@ img {
     border-radius: 10%;
 }
 
-.right   {
+.nav   {
     display: flex;
     align-items: center;
-    margin: 0px 0px 0px 860px;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 0px;
+    margin-left: auto;
 }
 
 .list   {
     margin: 8px;
     list-style-type: none;
+}
+
+.quote  {
+    background-color: #e5e7eb;
+    color: black;
+    font-size: 2.25rem;
+    display: flex;
+    height: 450px;
+}
+
+.contact    {
+    display: flex;
+    justify-content: center;
+    margin: 8px 36px;
 }
 
