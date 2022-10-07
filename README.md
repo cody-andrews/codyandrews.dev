@@ -1,2 +1,2 @@
-# codyandrews.org
-Portfolio Website 
+# codyandrews.dev
+Portfolio website demonstrating web dev skills. 

@@ -1,6 +1,8 @@
-
-body{
+*   {
     margin: 0px;
+    padding: 0px;
+}
+body{
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -8,12 +10,10 @@ body{
 header{
     display: flex;
     background-color: #1f2937;
-    /* justify-content: flex-start; */
 }
 
 header, h1  {
-    margin: 8px 16px;
-    margin-right: auto;
+    margin: 16px;
     color: #f9faf8;
 }
 
@@ -44,7 +44,6 @@ footer  {
 
 .container  {
     display: flex;
-    flex: ;
     height: 450px;
 }
 
@@ -107,7 +106,7 @@ footer  {
     list-style-type: none;
 }
 
-.quote  {
+.projects  {
     background-color: #e5e7eb;
     color: black;
     font-size: 2.25rem;
