@@ -2,8 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+
+html, body{
+    height: 100%;
+}
 body{
-    background-color: #1f2937;
+    background-color: hsl(215, 28%, 17%);
     color: #f9faf8;
 }
 
@@ -42,9 +46,15 @@ footer  {
     align-items: center;
 }
 
+.mainbody{
+    position: absolute;
+    top: 40px; /* Header Height */
+    bottom: 20px; /* Footer Height */
+    width: 100%;
+}
 .container  {
     display: flex;
-    height: 450px;
+    height: 575px;
 }
 
 .header-about-me    {
